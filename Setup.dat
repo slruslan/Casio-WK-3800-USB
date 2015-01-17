@@ -1,0 +1,55 @@
+OS			Win764
+Model		"PC-50"
+Ver			Ver.1.0.0
+Copyright	"Copyright (C) 2009 Roland Corporation."
+RDID		RDID0053
+IfType		USB
+HwType		Normal
+FrGen		M
+
+DevSelf		"USB\VID_0582&PID_008B", "MEDIA", "PC-50"
+
+File	UNINSTAL.EXE
+File	Files\RDCI1053.DLL
+File	Files\RDCP1053.CPL
+File	Files\RDDP1053.DAT
+File	Files\RdDrvInf.dat
+File	Files\RDIF1053.INF
+File	Files\RDID1053.CAT
+File	Files\RdUninst.dat
+File	Files\RDWM1053.SYS
+
+File	Readme.htm
+File	Readme\Readme_JP.htm
+File	Readme\Html\ReadmeJP1.htm
+File	Readme\Html\ReadmeJP2.htm
+File	Readme\Readme_EN.htm
+File	Readme\Html\ReadmeEN1.htm
+File	Readme\Html\ReadmeEN2.htm
+File	Readme\Readme_FR.htm
+File	Readme\Html\ReadmeFR1.htm
+File	Readme\Html\ReadmeFR2.htm
+File	Readme\Readme_IT.htm
+File	Readme\Html\ReadmeIT1.htm
+File	Readme\Html\ReadmeIT2.htm
+File	Readme\Readme_DE.htm
+File	Readme\Html\ReadmeDE1.htm
+File	Readme\Html\ReadmeDE2.htm
+File	Readme\Readme_ES.htm
+File	Readme\Html\ReadmeES1.htm
+File	Readme\Html\ReadmeES2.htm
+File	Readme\Readme_NL.htm
+File	Readme\Html\ReadmeNL1.htm
+File	Readme\Html\ReadmeNL2.htm
+File	Readme\Readme_PT.htm
+File	Readme\Html\ReadmePT1.htm
+File	Readme\Html\ReadmePT2.htm
+
+Inf		Files\RDIF1053.inf
+
+AddDDO	"USB#VID_0582&PID_008B", "Driver Settings", "RDCP1053.CPL", -4
+
+Accept	"USB\VID_0582&PID_008B"
+
+MPort	In,		"PC-50"
+MPort	Out,	"PC-50"
